@@ -7,6 +7,7 @@ import { SfIconArrowBack } from '@storefront-ui/react';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import ScrollToTopButton from '../Components/ScrollToTopButton';
 
 const MyCart = () => {
   return (
@@ -34,6 +35,7 @@ const MyCart = () => {
 
       </div>
       <div>
+      <ScrollToTopButton />
         <Footer/>
       </div>
     </div>

@@ -69,7 +69,7 @@ export function BreadCrumbscategory() {
             className="peer hidden sm:flex items-center peer-[:nth-of-type(even)]:before:content-['/'] peer-[:nth-of-type(even)]:before:px-2 peer-[:nth-of-type(even)]:before:leading-5 last-of-type:flex last-of-type:before:font-normal last-of-type:before:text-neutral-500 text-neutral-500 last-of-type:text-neutral-900 last-of-type:font-medium"
             key={item.name}
           >
-            {index < breadcrumbs.length - 1 ? (
+            {index < breadcrumbs.length - 0 ? (
               <SfLink
                 href={item.link}
                 variant="secondary"

@@ -3,6 +3,7 @@ import SingleProductDetails from '../Components/SingleProductDetails'
 import { BreadCrumbscategory } from '../Components/BreadCrumbscategory'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import ScrollToTopButton from '../Components/ScrollToTopButton'
 
 const ProductsDetails = () => {
   return (
@@ -22,6 +23,7 @@ const ProductsDetails = () => {
         <SingleProductDetails />
     </div>
     <div>
+    <ScrollToTopButton />
       <Footer/>
     </div>
 

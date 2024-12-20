@@ -467,6 +467,7 @@ export default function Header() {
                     {categoriesContent.map(({ heading }) => (
                       <div
                         key={heading}
+                        className="[&:nth-child(2)]:pt-0 pt-6 md:pt-0 text-black"
                       >
                         <h2
                           role="presentation"
@@ -475,7 +476,7 @@ export default function Header() {
                           {heading}
                         </h2>
                         <hr />
-                        <ul>
+                        <ul className='flex'>
                           {categories && categories.length > 0 ? (
                             categories.map((category) => (
                               <li key={category}>
@@ -500,13 +501,13 @@ export default function Header() {
                         </ul>
                       </div>
                     ))}
-                    <div className="">
+                    <div className="flex ">
                     {/* flex flex-col items-center justify-center overflow-hidden md:rounded-md bg-neutral-100 border-neutral-300 grow */}
-                      <img
+                      {/* <img
                         src={bannerDetails.image}
                         alt={bannerDetails.title}
                         className=""
-                      />
+                      /> */}
                       <p className="px-4 mt-4 mb-4 font-medium text-center typography-text-base">
                         {bannerDetails.title}
                       </p>

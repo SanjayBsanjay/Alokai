@@ -4,6 +4,7 @@ import ProductCard from '../Components/ProductCard'
 import { BreadCrumbs } from '../Components/BreadCrumbs'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
+import ScrollToTopButton from '../Components/ScrollToTopButton'
 
 const CategoryProducts = () => {
   
@@ -29,6 +30,7 @@ const CategoryProducts = () => {
 
       </div>
       <div>
+       <ScrollToTopButton />
         <Footer/>
       </div>
         
